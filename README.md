@@ -18,13 +18,10 @@ Security: AES encryption for biometric data storage and TLS for secure email ale
 <hr>
 📂 Project Structure<br>
 .
-├── 2FA_Security_Report.docx       # Full project report with methodology & results <br>
-├── research_paper_updated_2.docx  # Technical paper for academic audiences <br> 
-├── Poster_Final.pdf               # Visual summary for presentations <br>
+├── 2FA Security for CCTV Report.pdf      # Full project report with methodology & results <br>
+├── 2FA CCTV Research Paper # Technical paper for academic audiences <br> 
+├── Poster 2FA CCTV.pdf              # Visual summary for presentations <br>
 ├── Two_Factor_Authentication_FinalCode.ipynb  # Google Colab notebook (core implementation) <br>
-├── data/                          # Sample face/voice datasets (not included in repo) <br>
-├── media/                         # Figures/diagrams from the report <br>
-└── content/                       # Generated outputs (saved frames, audio files) <br>
 <hr>
 🎯 Why This Stands Out<br>
 Dual-Layer Security: Combines two independent biometric factors (face + voice) to minimize spoofing risks.<br>
