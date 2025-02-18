@@ -6,27 +6,18 @@ A robust security system combining facial recognition with liveness detection (e
 
 🔍 Key Techniques
 Facial Landmark Detection: Uses dlib's 68-point model to track eye movements for liveness checks. (MDN: Computer Vision Basics)
-
 Voice-to-Text Conversion: Leverages Google’s Speech Recognition API for real-time audio processing.
-
 Anti-Spoofing: Implements eye-blink detection to differentiate live users from static images/videos.
-
 Secure Notifications: Integrates Mailgun API for email alerts with image attachments during unauthorized access attempts.
 
 🛠 Notable Technologies
 Non-Obvious Libraries:
-
 dlib for facial landmark detection (lightweight and precise).
-
 face-recognition for GPU-accelerated face embeddings.
-
 pydub for audio preprocessing in voice recognition.
-
 Security: AES encryption for biometric data storage and TLS for secure email alerts.
 
 📂 Project Structure
-bash
-Copy
 .
 ├── 2FA_Security_Report.docx       # Full project report with methodology & results
 ├── research_paper_updated_2.docx  # Technical paper for academic audiences
@@ -35,15 +26,8 @@ Copy
 ├── data/                          # Sample face/voice datasets (not included in repo)
 ├── media/                         # Figures/diagrams from the report
 └── content/                       # Generated outputs (saved frames, audio files)
-Notable Directories:
-
-media/: Contains architecture diagrams and testing results (e.g., Figure 1.3 in the report).
-
-data/: Expected location for authorized user face images and voice samples (see code).
 
 🎯 Why This Stands Out
 Dual-Layer Security: Combines two independent biometric factors (face + voice) to minimize spoofing risks.
-
 Real-World Relevance: Tested under low-light, noise, and impersonation scenarios (85%+ accuracy).
-
 Scalable Design: Modular architecture allows integration with existing CCTV systems.
