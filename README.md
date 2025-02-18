@@ -26,7 +26,7 @@ Security: AES encryption for biometric data storage and TLS for secure email ale
 ├── media/                         # Figures/diagrams from the report <br>
 └── content/                       # Generated outputs (saved frames, audio files) <br>
 <hr>
-🎯 Why This Stands Out
+🎯 Why This Stands Out<br>
 Dual-Layer Security: Combines two independent biometric factors (face + voice) to minimize spoofing risks.<br>
 Real-World Relevance: Tested under low-light, noise, and impersonation scenarios (85%+ accuracy).<br>
 Scalable Design: Modular architecture allows integration with existing CCTV systems.<br>
