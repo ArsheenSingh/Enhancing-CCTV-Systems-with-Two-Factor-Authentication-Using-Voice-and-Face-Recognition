@@ -9,14 +9,14 @@ Voice-to-Text Conversion: Leverages Google’s Speech Recognition API for real-t
 Anti-Spoofing: Implements eye-blink detection to differentiate live users from static images/videos.<br>
 Secure Notifications: Integrates Mailgun API for email alerts with image attachments during unauthorized access attempts. <br>
 <hr>
-🛠 Notable Technologies
+🛠 Notable Technologies<br>
 Non-Obvious Libraries:<br>
 dlib for facial landmark detection (lightweight and precise).<br>
 face-recognition for GPU-accelerated face embeddings.<br>
 pydub for audio preprocessing in voice recognition.<br>
 Security: AES encryption for biometric data storage and TLS for secure email alerts.<br>
 <hr>
-📂 Project Structure
+📂 Project Structure<br>
 .
 ├── 2FA_Security_Report.docx       # Full project report with methodology & results <br>
 ├── research_paper_updated_2.docx  # Technical paper for academic audiences <br> 
@@ -25,7 +25,7 @@ Security: AES encryption for biometric data storage and TLS for secure email ale
 ├── data/                          # Sample face/voice datasets (not included in repo) <br>
 ├── media/                         # Figures/diagrams from the report <br>
 └── content/                       # Generated outputs (saved frames, audio files) <br>
-
+<hr>
 🎯 Why This Stands Out
 Dual-Layer Security: Combines two independent biometric factors (face + voice) to minimize spoofing risks.<br>
 Real-World Relevance: Tested under low-light, noise, and impersonation scenarios (85%+ accuracy).<br>
