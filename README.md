@@ -1,21 +1,20 @@
 # Enhancing-CCTV-Systems-with-Two-Factor-Authentication-Using-Voice-and-Face-Recognition
 Enhances CCTV security with 2FA using facial recognition and voice authentication. Prevents spoofing via eye-blink detection and passphrase verification. Built with OpenCV, Dlib, and Google SpeechRecognition API, it reduces false acceptance rates compared to traditional single-factor methods. <br>
 Face Recognition + Voice Verification <br>
-
 A robust security system combining facial recognition with liveness detection (eye-blink analysis) and voice-based password verification to prevent unauthorized access in high-risk environments. Designed for CCTV/doorbell systems, this project demonstrates modern biometric authentication using Python, OpenCV, and machine learning.
 <hr>
 🔍 Key Techniques
-Facial Landmark Detection: Uses dlib's 68-point model to track eye movements for liveness checks. (MDN: Computer Vision Basics)
-Voice-to-Text Conversion: Leverages Google’s Speech Recognition API for real-time audio processing.
-Anti-Spoofing: Implements eye-blink detection to differentiate live users from static images/videos.
-Secure Notifications: Integrates Mailgun API for email alerts with image attachments during unauthorized access attempts.
+Facial Landmark Detection: Uses dlib's 68-point model to track eye movements for liveness checks. (MDN: Computer Vision Basics)<br>
+Voice-to-Text Conversion: Leverages Google’s Speech Recognition API for real-time audio processing. <br>
+Anti-Spoofing: Implements eye-blink detection to differentiate live users from static images/videos.<br>
+Secure Notifications: Integrates Mailgun API for email alerts with image attachments during unauthorized access attempts. <br>
 <hr>
 🛠 Notable Technologies
-Non-Obvious Libraries:
-dlib for facial landmark detection (lightweight and precise).
-face-recognition for GPU-accelerated face embeddings.
-pydub for audio preprocessing in voice recognition.
-Security: AES encryption for biometric data storage and TLS for secure email alerts.
+Non-Obvious Libraries:<br>
+dlib for facial landmark detection (lightweight and precise).<br>
+face-recognition for GPU-accelerated face embeddings.<br>
+pydub for audio preprocessing in voice recognition.<br>
+Security: AES encryption for biometric data storage and TLS for secure email alerts.<br>
 <hr>
 📂 Project Structure
 .
@@ -28,6 +27,6 @@ Security: AES encryption for biometric data storage and TLS for secure email ale
 └── content/                       # Generated outputs (saved frames, audio files) <br>
 
 🎯 Why This Stands Out
-Dual-Layer Security: Combines two independent biometric factors (face + voice) to minimize spoofing risks.
-Real-World Relevance: Tested under low-light, noise, and impersonation scenarios (85%+ accuracy).
-Scalable Design: Modular architecture allows integration with existing CCTV systems.
+Dual-Layer Security: Combines two independent biometric factors (face + voice) to minimize spoofing risks.<br>
+Real-World Relevance: Tested under low-light, noise, and impersonation scenarios (85%+ accuracy).<br>
+Scalable Design: Modular architecture allows integration with existing CCTV systems.<br>
